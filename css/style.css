@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+    background-color: #ffffff;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.btn {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+.header {
+    font-weight: 500;
+    line-height: 30px;
+    text-transform: uppercase;
+    background-color: #eeeeee;
+}
+.site-nav {
+    list-style: none;
+}
+.header a:hover,
+.header a:focus {
+    color: #fb565a;
+}
+.header a:active,
+.header a:active {
+    color: #000000;
+    opacity: 0.3;
+}
+.services img {
+    width: 300px;
+    height: 146px;
+}
+.services h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.services p {
+    color: #283136;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.web-site .btn {
+    background-color: #fb565a;
+}
+.web-site .btn:hover,
+.web-site .btn:focus {
+    background-color: #e74246;
+}
+.web-site .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+}
+.application .btn {
+    background-color: #00ca74;
+}
+.application .btn:hover,
+.application .btn:focus {
+    background-color: #00bc6c;
+}
+.application .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #00aa62;
+}
+.presentation .btn {
+    background-color: #efc84a;
+}
+.presentation .btn:hover,
+.presentation .btn:active {
+    background-color: #eab534;
+}
+.presentation .btn:active {
+    color: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #e5a722; 
+}
+.footer-label b {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.footer-label span {
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.inner-page h1 {
+    margin: 0;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 55px;
+
+    background-color: #eeeeee;
+}
+.inner-page h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.05px;
+}
+.filter-selection label {
+    color: #283136;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.inner-page button {
+    font: inherit;
+    font-weight: 500;
+    
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #eeeeee;
+    border: none;
+}
+.inner-page button:hover,
+.inner-page button:focus {
+    background-color: #dfdfdf;
+}
+.inner-page button:active {
+    color: rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d5d5d5; 
+}
+.sorting-type {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.sorting-type:hover,
+.sorting-type:focus {
+    color: rgba(0, 0, 0, 0.6);
+}
+.sorting-type:active {
+    color: #000000;
+}
+.product .hover {
+    background-color: #eeeeee;
+}
+.product img {
+    width: 360px;
+    height: 576px;
+    border: 1px solid rgba(0, 1, 1, 0.1);
+}
+.hover .description {
+    color: #666666;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.hover a {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    text-transform: uppercase;
+    background-color: #fb565a;
+}
+.hover a:hover,
+.hover a:focus {
+    background-color: #e74246;
+}
+.hover a:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+}
+/* .filters input {
+    display: none;
+}
+.filters label::before {
+    content: "";
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    margin-right: 8px;
+    vertical-align: middle;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px #a6a6a6;
+  }
+.filters-features label::before {
+    border: 6px solid #ffffff;
+    border-radius: 1px;
+    box-shadow: 0 0 0 2px #a6a6a6;
+  } */
