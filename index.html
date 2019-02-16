@@ -8,39 +8,43 @@
   </head>
   <body>
     <header class="header">
-      <a class="header-logo"><img src="img/index-logo.svg" alt="Студия дизайна Нёрдс"></a>
-      <nav class="main-nav">
-        <ul class="site-nav">
-          <li><a href="info.html">Студия</a></li>
-          <li><a href="clients.html">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-      </nav>
-      <a href="cart-link.html">Корзина</a> 
+      <div class="container">
+        <a class="header-logo"><img src="img/index-logo.svg" alt="Студия дизайна Нёрдс"></a>
+        <nav class="main-nav">
+          <ul class="site-nav">
+            <li><a href="info.html">Студия</a></li>
+            <li><a href="clients.html">Клиенты</a></li>
+            <li><a href="catalog.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+        </nav>
+        <a class="cart-link" href="cart-link.html">Корзина</a>
+      </div> 
     </header>
     <main>
       <h1 class="visually-hidden">Студия "Нёрдс"</h1>
       <section class="services">
-        <h2 class="visually-hidden">Услуги</h2>
-        <div class="web-site">
-          <img src="img/web-site.png" alt="Веб-сайты">
-          <h3>Веб-сайты</h3>
-          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-          <a class="btn" href="web-site.html">Заказать</a>
-        </div>
-        <div class="application">
-          <img src="img/application.png" alt="Приложения">
-          <h3>Приложения</h3>
-          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-          <a class="btn" href="application.html">Заказать</a>
-        </div>
-        <div class="presentation">
-          <img src="img/presentation.png">
-          <h3>Презентации</h3>
-          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-          <a class="btn" href="presentation.html">Заказать</a>
-        </div>
+        <!-- <div class="container"> -->
+          <h2 class="visually-hidden">Услуги</h2>
+          <div class="web-site service">
+            <img src="img/web-site.png" alt="Веб-сайты">
+            <h3>Веб-сайты</h3>
+            <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+            <a class="btn" href="web-site.html">Заказать</a>
+          </div>
+          <div class="application service">
+            <img src="img/application.png" alt="Приложения">
+            <h3>Приложения</h3>
+            <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+            <a class="btn" href="application.html">Заказать</a>
+          </div>
+          <div class="presentation service">
+            <img src="img/presentation.png">
+            <h3>Презентации</h3>
+            <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+            <a class="btn" href="presentation.html">Заказать</a>
+          </div>
+        <!-- </div> -->
       </section>        
     </main>
     <div class="pop-up">
@@ -62,7 +66,7 @@
         <button class="btn" type="button">Закрыть</button>
       </form> 
     </div>   
-    <footer class="footer">
+    <footer class="footer container">
       <div class="footer-social">
         <a class="social-btn" href="#">Вконтакте</a></li>
         <a class="social-btn" href="#">Facebook</a></li>
