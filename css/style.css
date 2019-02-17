@@ -304,18 +304,29 @@ a {
 .inner-page .container {
     margin-bottom: 0;
 }
+.filters-net {
+    margin-bottom: 50px;
+}
 input[type=checkbox], input[type=radio] {
     display: none;
 }
+input[type=checkbox] + label,
+input[type=radio] + label {
+    display: block;
+    position: relative; 
+    padding-left: 35px;
+    margin-bottom: 15px;
+    
+}
 input[type=checkbox] + label::before {
       content:"";
+      position: absolute;
+      left: 0;
       display: block;
       background: url("../img/checkbox-off.png") no-repeat center;
       height: 23px;
       width: 23px;
       text-align: center;
-      white-space: nowrap;
-      
 }
 input[type=checkbox]:checked + label::before {
       content:"";
@@ -324,9 +335,12 @@ input[type=checkbox]:checked + label::before {
       background: url("../img/checkbox-on.png") no-repeat center;
       
 }
+
 input[type=radio] + label:before {
       content:"";
       display: block;
+      position: absolute;
+      left: 0;
       background: url("../img/radio-off.png") no-repeat center;
       height: 25px;
       width: 25px;
